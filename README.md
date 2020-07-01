@@ -33,7 +33,7 @@ A simple guessing game built as a single view app. The User is presented with 3 
  
 </details>  
 
-## Project 3: [ViewsAndModifiers](https://github.com/tiannahenrylewis/100DaysOfSwiftUI/tree/master/Convert) :white_check_mark:  
+## Project 3: [ViewsAndModifiers](https://github.com/tiannahenrylewis/100DaysOfSwiftUI/tree/master/ViewsAndModifiers) :white_check_mark:  
 Sandbox app to explore in depth how SwiftUI works with Views and Modifiers. Techniques learned here will be applied throughout the rest of the course.
 
 **Key Topics:**  Conditional Modifiers, Environment Modifiers, Views as Properties, View Composition, Custom Modifiers, Custom Containers
