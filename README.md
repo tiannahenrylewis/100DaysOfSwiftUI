@@ -1,12 +1,15 @@
 # 100 Days of SwiftUI
 
 ## Project 1: [WeSplit](https://github.com/tiannahenrylewis/100DaysOfSwiftUI/tree/master/WeSplit) :white_check_mark:  
-...
+Simple app working with the Form view in SwiftUI that is able to split the bill between a number of users and letting each person know how much they owe towards the bill, even adding a tip percentage for those parties feeling generous.
 
-Key Topics: 
+Key Topics: Form, NavigationViews, @State, Picker, 
 
 <details>
-  <summary>Screenshots</summary>
+  <summary>Screenshots</summary>  
+  
+  ![WeSplit Screenshot Images](https://user-images.githubusercontent.com/40465736/86192912-a4fee980-bb18-11ea-9f9f-51c5530aaeb0.png)
+  
 </details>
 
 ## Challenge 1: [Convert](https://github.com/tiannahenrylewis/100DaysOfSwiftUI/tree/master/Convert) :white_check_mark:  
@@ -26,9 +29,20 @@ A simple guessing game built as a single view app. The User is presented with 3 
 <details>
   <summary>Screenshots</summary>  
   
-  ![image](https://user-images.githubusercontent.com/40465736/82842201-a3515e80-9ea6-11ea-8ea3-1588e0599da5.png) 
+  ![GuessTheFlag Screenshots](https://user-images.githubusercontent.com/40465736/86193143-3706f200-bb19-11ea-86f0-a6c180e56d65.png)
+ 
+</details>  
+
+## Project 3: [ViewsAndModifiers](https://github.com/tiannahenrylewis/100DaysOfSwiftUI/tree/master/Convert) :white_check_mark:  
+Sandbox app to explore in depth how SwiftUI works with Views and Modifiers. Techniques learned here will be applied throughout the rest of the course.
+
+**Key Topics:**  Conditional Modifiers, Environment Modifiers, Views as Properties, View Composition, Custom Modifiers, Custom Containers
+
+<details>
+  <summary>Screenshots</summary>  
   
-  ![image](https://user-images.githubusercontent.com/40465736/82842219-ae0bf380-9ea6-11ea-943f-ead59bb1e6de.png) 
+  ![ViewsAndModifiers Screenshots](https://user-images.githubusercontent.com/40465736/86193471-ffe51080-bb19-11ea-907f-6ecfe9ef9d89.png)
+  
 </details>
 
 
