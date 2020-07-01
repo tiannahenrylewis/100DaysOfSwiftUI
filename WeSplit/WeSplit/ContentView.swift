@@ -54,6 +54,7 @@ struct ContentView: View {
                 
                 Section(header: Text("Okay, each person should pay")) {
                     Text("$\(totalPerPerson, specifier: "%.2f")")
+                        .foregroundColor(tipPercentage == 5 ? .red : .black)
                 }
             }
         .navigationBarTitle("WeSplit")

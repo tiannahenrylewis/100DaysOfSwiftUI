@@ -8,6 +8,36 @@
 
 import SwiftUI
 
+//struct FlagImage: ViewModifier {
+//    var flagString: String
+//
+//    func body(content: Content) -> some View {
+//        Image(flagString)
+//        .renderingMode(.original)
+//        .clipShape(Capsule())
+//        .overlay(Capsule().stroke(Color.black, lineWidth: 1))
+//        .shadow(color: .black, radius: 2)
+//    }
+//}
+
+//extension View {
+//    func flagImage(from string: String) -> some View {
+//        self.modifier(FlagImage(flagString: string))
+//    }
+//}
+
+struct FlagImage: View {
+    let flagString: String
+
+    var body: some View {
+        Image(flagString)
+            .renderingMode(.original)
+            .clipShape(Capsule())
+            .overlay(Capsule().stroke(Color.black, lineWidth: 1))
+            .shadow(color: .black, radius: 2)
+    }
+}
+
 struct ContentView: View {
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Monaco", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
@@ -35,11 +65,7 @@ struct ContentView: View {
                     Button(action: {
                         self.flagTapped(number)
                     }) {
-                        Image(self.countries[number])
-                            .renderingMode(.original)
-                            .clipShape(Capsule())
-                            .overlay(Capsule().stroke(Color.black, lineWidth: 1))
-                            .shadow(color: .black, radius: 2)
+                        FlagImage(flagString: self.countries[number])
                     }
                 }
                 Text("Score: \(score)")
