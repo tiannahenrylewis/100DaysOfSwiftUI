@@ -43,6 +43,15 @@ Sandbox app to explore in depth how SwiftUI works with Views and Modifiers. Tech
   
   ![ViewsAndModifiers Screenshots](https://user-images.githubusercontent.com/40465736/86193471-ffe51080-bb19-11ea-907f-6ecfe9ef9d89.png)
   
+</details>  
+
+## Project 3: [BetterRest]() 
+Form based app that will ask the user to enter information and convert that all into an alert.
+
+**Key Topics:**  Stepper, DatePicker, DateFormatter
+
+<details>
+  <summary>Screenshots</summary>  
 </details>
 
 
