@@ -13,7 +13,7 @@ Key Topics: Form, NavigationViews, @State, Picker,
 </details>
 
 ## Challenge 1: [Convert](https://github.com/tiannahenrylewis/100DaysOfSwiftUI/tree/master/Convert) :white_check_mark:    
-Using WeSplit as an example Convert is temperature converter built to an outline. Unlike with the projects Challenges are to be completed without any guidance using the knowledge gained in previous sections.
+Using WeSplit as an example Convert is temperature converter built to an outline. Unlike with the projects Challenges are to be completed without any guidance using the knowledge gained in previous sections. Convert is a temperature converter to convert between Celsius, Farenheit, and Kelvin units.
 
 Key Topics:  
 
